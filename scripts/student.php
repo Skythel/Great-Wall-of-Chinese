@@ -302,7 +302,7 @@ class Student
         
         $sql = "SELECT a.assignment_id, a.assignment_name, a.due_timestamp 
             FROM assignments a INNER JOIN students s ON a.account_id = s.teacher_account_id 
-            WHERE s.student_id = ? AND a.sent_to_students = 1 AND 
+            WHERE s.student_id = ? AND a.sent_to_students = 1 AND a.due_timestamp > unix_timestamp() AND
                 NOT EXISTS (SELECT * FROM assignments_log a_l 
                             WHERE a_l.account_id = s.student_id AND a.assignment_id = a_l.assignment_id)";
         

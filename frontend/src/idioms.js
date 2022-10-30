@@ -223,6 +223,30 @@ function create() {
         this.input.mouse.enabled = true;
     });
 
+    const pvpModeOption1 = document.getElementById('pvpModeOption1');
+    pvpModeOption1.addEventListener('focus', () => {
+        this.input.keyboard.enabled = false;
+        this.input.mouse.enabled = false;
+    });
+
+    const pvpModeOption2 = document.getElementById('pvpModeOption2');
+    pvpModeOption2.addEventListener('focus', () => {
+        this.input.keyboard.enabled = false;
+        this.input.mouse.enabled = false;
+    });
+
+    const pvpModeOption3 = document.getElementById('pvpModeOption3');
+    pvpModeOption3.addEventListener('focus', () => {
+        this.input.keyboard.enabled = false;
+        this.input.mouse.enabled = false;
+    });
+
+    const pvpModeOption4 = document.getElementById('pvpModeOption4');
+    pvpModeOption4.addEventListener('focus', () => {
+        this.input.keyboard.enabled = false;
+        this.input.mouse.enabled = false;
+    });
+
     const viewProfileModal = document.getElementById('viewProfile-modal');
     viewProfileModal.addEventListener('focus', () => {
         this.input.keyboard.enabled = false;

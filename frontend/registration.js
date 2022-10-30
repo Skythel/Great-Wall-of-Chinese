@@ -56,16 +56,16 @@ function changePic(characterValue){
 }
 
 function martialHeroDescribe(){
-	characterDescription.innerHTML = "This is a description about Martial Hero"
+	characterDescription.innerHTML = "Martial Hero is a fearsome melee warrior."
 }
 function huntressDescribe(){
-	characterDescription.innerHTML = "This is a description about Huntress"
+	characterDescription.innerHTML = "Huntress is a skillful archer."
 }
 function heroKnightDescribe(){
-	characterDescription.innerHTML = "This is a description about Hero Knight"
+	characterDescription.innerHTML = "Hero Knight is a valiant protector."
 }
 function wizardDescribe(){
-	characterDescription.innerHTML = "This is a description about Wizard"
+	characterDescription.innerHTML = "Wizard is a wise magician."
 }
 
 // register button

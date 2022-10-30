@@ -512,6 +512,14 @@ generateSocketAuth().then(result => {
                         opponentSprite = "images/martialHero.png";
                         break;
                 }
+                console.log(playerSprite);
+                console.log(opponentSprite);
+                // change sprite
+                // change score
+                // add pvp rank multiplier
+                // individual qn overview for teachers?
+                // teacher view assignment result
+                // handle same result for pvp
                 document.getElementById("characterAvatarUserPVP").src = playerSprite;
                 document.getElementById("characterAvatarOpponentPVP").src = opponentSprite;
             }

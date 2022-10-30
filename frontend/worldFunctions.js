@@ -363,7 +363,7 @@ function openSelectCustomLevelModal(username){
                         table.innerHTML = rowsHTML; //set innerhtml code
                 }
                 if (this.responseText.length == 0){
-                    rowsHTML = '<p><center>NO CUSTOM GAME FOUND!<br><br>PLEASE CREATE FIRST BEFORE CHOOSING THIS SELECTION</centre></p>';
+                    rowsHTML = '<p><center>No custom game found!<br><br>Please create a custom game before selecting this option.</centre></p>';
                     table.innerHTML = rowsHTML; //set innerhtml code
                 }
             }
